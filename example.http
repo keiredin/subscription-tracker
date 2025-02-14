@@ -1,1 +1,18 @@
-GET http://localhost:3000/api/v1/subscriptions
+# POST http://localhost:3000/api/v1/auth/sign-up
+# Content-Type: application/json
+
+# {
+#   "email": "user@example.com",
+#   "name": "John Doe",
+#   "password": "securepassword123"
+# }
+
+
+POST http://localhost:3000/api/v1/auth/sign-in
+Content-Type: application/json
+
+{
+  "email": "user@example.com",
+  "name": "John Doe",
+  "password": "securepassword123"
+}
